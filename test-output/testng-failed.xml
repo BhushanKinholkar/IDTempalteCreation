@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Main Test Suite]">
+  <test thread-count="5" verbose="5" name="Extent Report Test(failed)">
+    <classes>
+      <class name="module_pages.TemplateCreation">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="card_Issucance_tab"/>
+          <include name="teardown"/>
+          <include name="beforeSuite"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- module_pages.TemplateCreation -->
+    </classes>
+  </test> <!-- Extent Report Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
